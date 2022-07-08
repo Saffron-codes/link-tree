@@ -1,0 +1,12 @@
+{
+    "name": "Saffron Dionysius-Links",
+    "short_name": "SD-Links",
+    "lang": "en-US",
+    "icons": [
+      {
+        "src": "./images/saffron_dionysius.jpg",
+        "sizes": "any"
+      }
+    ]
+    
+  }
