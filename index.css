@@ -1,26 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');   
-/* https://fonts.googleapis.com/css?family=Open+Sans   */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 body {
-    /* background-color: rgb(85, 183, 232); */
-    font-family: sans-serif;
-    background-image: url(./images/bg-1.jpg);
+    font-family: 'Inter';
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-size: 100% 100%
 }
 
-body, html{
+body,
+html {
     margin: 0;
     padding: 0;
 
 }
 
-main{
+main {
     opacity: 0;
     transition: all 2s;
-   -webkit-transition: all 2s;
-   filter: blur(10px);
+    -webkit-transition: all 2s;
+    filter: blur(10px);
     /* transition: opacity 2s ease-in-out, filter 2s ease-in-out; */
 }
 
@@ -41,17 +42,18 @@ header>img {
 }
 
 
-header h1{
+header h1 {
     display: inline-block;
     font-size: 0.8em;
     font-weight: bold;
-    font-family:'Courier New';
+    font-family: 'Courier New';
     color: rgb(0, 0, 0);
     padding: 0.4em;
     background: rgb(191, 102, 102);
     border-radius: 1.2em;
     border: 1px solid red;
 }
+
 ul {
     box-sizing: border-box;
     list-style: none;
@@ -67,39 +69,38 @@ ul>li {
     border-radius: 10em;
     padding: 1em;
     margin: 1.4em 0;
-    box-shadow: rgb(28, 32, 93/24%) 0px 2px 8px 0px;
-    /* backdrop-filter: blur(30px); */
-
-    
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
 
 ul>li>a {
     text-decoration: none;
-    font-family:'Open Sans',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: large;
     color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 0.5em;
 }
 
 
 
-@media only screen 
+/* @media only screen 
 and (min-width : 1200px){
     body{
         background-image: url(./images/background.jpg);
     }
-}
+} */
 
 
 /*Mobile*/
 
-@media only screen 
-and (min-width: 320px)
+@media only screen and (min-width: 320px)
+
 /* and (max-device-width:100px)  */
-{
+    {
     /* header>img {
         width: 6em;
         height: 6em;
